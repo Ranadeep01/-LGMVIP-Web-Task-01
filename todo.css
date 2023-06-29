@@ -1,0 +1,51 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.todo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.todo input{
+    flex: 1;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+.todo button{
+    width: 30%;
+    background-color:red;
+    color:black;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+    
+}
+
+
+ul li{
+    flex: 1;
+    background-color: rgb(51, 48, 48);
+    color: rgb(201, 199, 206);
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 1px;
+}
+ul li button{
+    width: 10%;
+    background-color:rgb(201, 119, 119);
+    color:black;
+    font-weight: bold;
+    border: none;
+    font-size: large;
+    float: right;
+    border: 1px solid black;
+}
